@@ -1,13 +1,25 @@
 <!-- https://formly.dev/guide/getting-started -->
-<!-- <form [formGroup]="form" (ngSubmit)="submit()">
+<form [formGroup]="form" (ngSubmit)="submit()">
   <formly-form [model]="model" [fields]="fields" [options]="options" [form]="form"></formly-form>
   <button type="submit" class="btn btn-primary submit-button">Submit</button>
-</form> -->
+</form>
 
+<!-- https://www.npmjs.com/package/xng-breadcrumb -->
 <xng-breadcrumb></xng-breadcrumb>
-asdfasdf
+<br>
+<br>
 <nav>
   <a routerLink="/one" routerLinkActive="active">Route Number ONE</a>
   <a routerLink="/two" routerLinkActive="active">Route Number TWO</a>
 </nav>
 <router-outlet></router-outlet>
+<share-buttons [theme]="'modern-dark'"
+ [include]="['facebook','twitter','linkedin','pinterest','reddit','tumblr','mix','viber','vk','telegram','messenger','whatsapp','xing','line','sms','email','print','copy']"
+ [show]="5"
+ [url]="'https://twitter.com/'"
+ [autoSetMeta]="false"
+></share-buttons>
+<!-- <share-buttons theme="material-dark" show="{{this.shit}}" image="https://loremflickr.com/320/240"></share-buttons> -->
+
+<disqus [identifier]="'aaa'"></disqus>
+<!-- https://murhafsousli.github.io/ngx-disqus/ -->

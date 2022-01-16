@@ -10,6 +10,7 @@ import { BreadcrumbService } from 'xng-breadcrumb';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  shit:any=11;
   constructor(private breadcrumbService: BreadcrumbService) {}
 form = new FormGroup({});
 model: any = {};
