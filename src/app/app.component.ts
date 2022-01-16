@@ -1,13 +1,16 @@
 import {Component} from '@angular/core';
 import {FormGroup} from '@angular/forms';
 import {FormlyFieldConfig, FormlyFormOptions } from '@ngx-formly/core';
+
+import { BreadcrumbService } from 'xng-breadcrumb';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
+  constructor(private breadcrumbService: BreadcrumbService) {}
 form = new FormGroup({});
 model: any = {};
 options: FormlyFormOptions = {
