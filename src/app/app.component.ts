@@ -8,76 +8,6 @@ import {FormlyFieldConfig, FormlyFormOptions } from '@ngx-formly/core';
 })
 export class AppComponent {
 
-//   form2 = new FormGroup({});
-//   model2: any = {};
-//   options: FormlyFormOptions = {};
-//   fields2: FormlyFieldConfig[] = [
-//     {
-//       key: 'Select',
-//       type: 'select',
-//       templateOptions: {
-//         label: 'Select',
-//         placeholder: 'Placeholder',
-//         description: 'Description',
-//         required: true,
-//         options: [
-//           { value: 1, label: 'Option 1' },
-//           { value: 2, label: 'Option 2'  },
-//           { value: 3, label: 'Option 3'  },
-//           { value: 4, label: 'Option 4', disabled: true },
-//         ],
-//       },
-//     },
-//     {
-//       key: 'select_multi',
-//       type: 'select',
-//       templateOptions: {
-//         label: 'Select Multiple',
-//         placeholder: 'Placeholder',
-//         description: 'Description',
-//         required: true,
-//         multiple: true,
-//         selectAllOption: 'Select All',
-//         options: [
-//           { value: 1, label: 'Option 1' },
-//           { value: 2, label: 'Option 2'  },
-//           { value: 3, label: 'Option 3'  },
-//           { value: 4, label: 'Option 4', disabled: true },
-//         ],
-//       },
-//     },
-//   ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-//   form = new FormGroup({});
-//   model = { email: 'email@gmail.com' };
-//   fields: FormlyFieldConfig[] = [
-//     {
-//       key: 'email',
-//       type: 'input',
-//       templateOptions: {
-//         label: 'Email address',
-//         placeholder: 'Enter email',
-//         required: true,
-//       }
-//     }
-//   ];
-
-//   onSubmit(model: any) {
-//     console.log(model);
-//   }
-// }
 form = new FormGroup({});
 model: any = {};
 options: FormlyFormOptions = {
@@ -100,7 +30,7 @@ fields: FormlyFieldConfig[] = [
     type: 'textarea',
     templateOptions: {
       label: 'Some sweet story',
-      placeholder: 'It allows you to build and maintain your forms with the ease of JavaScript :-)',
+      placeholder: 'It allows you to build and maintain your forms with the ease of JavaScript',
       description: '',
     },
     expressionProperties: {
